@@ -1,0 +1,7 @@
+name: matplotlib-polyroi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip:
+      - matplotlib-roi
