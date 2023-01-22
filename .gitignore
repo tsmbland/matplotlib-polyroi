@@ -1,2 +1,4 @@
 .idea/
 .DS_Store
+dist/
+matplotlib_polyroi.egg-info/
