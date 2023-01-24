@@ -358,8 +358,9 @@ class RoiJupyter:
         self.ax.set_xticks([])
         self.ax.set_yticks([])
         self.ax.text(0.03, 0.97,
-                     'Specify ROI clockwise from posterior (4 points minimum)'
-                     '\nClick to lay points',
+                     'Specify ROI clockwise (4 points minimum)'
+                     '\nClick to lay points'
+                     '\nClick Save when done',
                      color='white',
                      transform=self.ax.transAxes, fontsize=8, va='top', ha='left')
         self.display_points()
