@@ -4,4 +4,4 @@ channels:
   - defaults
 dependencies:
   - pip:
-      - matplotlib-polyroi==0.1.2
+      - matplotlib-polyroi==0.1.3
