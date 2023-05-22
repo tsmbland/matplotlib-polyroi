@@ -14,28 +14,28 @@ Module for selecting polygonal ROIs on images, spline fitting and ROI expansion
 
 ## Instructions
 
-See demonstration notebook for instructions on usage.
+See demonstration notebook for instructions on usage. To run the notebook interactively you have two options:
 
-To run notebook in the cloud, click 'launch binder' above.
+#### Option 1: Cloud
 
-To run on your local machine, follow these steps:
+To run in the cloud, click the 'launch binder' button at the top. Please note that it may take several minutes to open the notebook
 
-&#8291;1. Clone the repository:
+#### Option 2: Local
 
-    git clone https://github.com/tsmbland/matplotlib-polyroi.git
-    cd matplotlib-polyroi
+Step 1: Open [Docker](https://www.docker.com/products/docker-desktop/) and pull the docker image (copy and paste into the terminal)
 
-&#8291;2. Create conda environment:
+    docker pull tsmbland/matplotlib-polyroi
 
-    conda env create -f environment.yml
+Step 2: Run the docker container (copy and paste into the terminal)
 
-&#8291;3. Activate conda environment:
+    docker run -p 8888:8888 tsmbland/matplotlib-polyroi
 
-    conda activate matplotlib-polyroi
+This will print a URL for you to copy and paste into your web browser to open up Jupyter
 
-&#8291;4. Open jupyter notebook:
-
-    jupyter notebook scripts/Demonstration.ipynb
+Step 3: When finished, delete the container and image
+    
+    docker container prune -f
+    docker image rm tsmbland/matplotlib-polyroi
 
 ## License
 
