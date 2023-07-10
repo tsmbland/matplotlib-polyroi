@@ -14,7 +14,7 @@ Module for selecting polygonal ROIs on images, spline fitting and ROI expansion
 
 ## Instructions
 
-See the [tutorial notebook](scripts/Demonstration.ipynb) for instructions on usage. To run the notebook interactively you have two options:
+See the [tutorial notebook](https://nbviewer.org/github/tsmbland/matplotlib-polyroi/blob/master/scripts/Demonstration.ipynb) for instructions on usage. To run the notebook interactively you have two options:
 
 #### Option 1: Binder
 
