@@ -1,6 +1,8 @@
 import numpy as np
 from skimage import io
 
+__all__ = ["load_image"]
+
 
 def load_image(filename: str) -> np.ndarray:
     """

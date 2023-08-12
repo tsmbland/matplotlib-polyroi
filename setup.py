@@ -5,22 +5,24 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name='matplotlib-polyroi',
-    version='0.1.5',
+    name="matplotlib-polyroi",
+    version="0.1.6",
     license="CC BY 4.0",
-    author='Tom Bland',
-    author_email='tom_bland@hotmail.co.uk',
+    author="Tom Bland",
+    author_email="tom_bland@hotmail.co.uk",
     packages=find_packages(),
-    install_requires=['numpy',
-                      'matplotlib',
-                      'scipy',
-                      'ipywidgets',
-                      'scikit-image',
-                      'jupyter'],
-    description='Python implementation of SAIBR: a tool for performing spectral autofluorescence correction on biological images',
+    install_requires=[
+        "numpy",
+        "matplotlib",
+        "scipy",
+        "ipywidgets",
+        "scikit-image",
+        "jupyter",
+    ],
+    description="Python implementation of SAIBR: a tool for performing spectral autofluorescence correction on biological images",
     long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description_content_type="text/markdown",
     project_urls={
         "Source Code": "https://github.com/tsmbland/matplotlib-polyroi",
-    }
+    },
 )
