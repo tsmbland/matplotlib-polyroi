@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scipy
+ipywidgets
+scikit-image
+jupyter
+sphinx_rtd_theme==1.0.0
+pre-commit
