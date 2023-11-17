@@ -1,8 +1,0 @@
-name: matplotlib-polyroi
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - python=3.7
-  - pip:
-      - matplotlib-polyroi==0.1.6

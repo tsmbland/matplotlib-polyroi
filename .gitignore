@@ -12,3 +12,5 @@ dist/
 # IPython notebooks
 .ipynb_checkpoints
 
+# Virtual environment
+.venv
