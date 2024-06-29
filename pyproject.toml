@@ -17,9 +17,8 @@ dependencies = [
     "numpy",
     "matplotlib",
     "scipy",
-    "ipywidgets",
     "scikit-image",
-    "jupyter",
+    "ipympl",
 ]
 
 [project.urls]
