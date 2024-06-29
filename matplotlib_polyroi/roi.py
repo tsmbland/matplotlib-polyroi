@@ -353,10 +353,10 @@ class ROI_jupyter:
         self.fig.canvas.mpl_connect("button_press_event", self._button_press_callback)
 
         # Buttons
-        self.ax_undo = plt.axes([0.7, 0.05, 0.1, 0.075])
+        self.ax_undo = plt.axes([0.7, 0.02, 0.1, 0.075])
         self.b_undo = Button(self.ax_undo, "Undo")
         self.b_undo.on_clicked(self._undo)
-        self.ax_save = plt.axes([0.81, 0.05, 0.1, 0.075])
+        self.ax_save = plt.axes([0.81, 0.02, 0.1, 0.075])
         self.b_save = Button(self.ax_save, "Save")
         self.b_save.on_clicked(self._save)
 
@@ -373,7 +373,7 @@ class ROI_jupyter:
         self.fig.set_size_inches(4, 4)
 
     def _button_press_callback(self, event: MouseEvent):
-        if isinstance(event.inaxes, type(self.ax)):
+        if event.inaxes == self.ax:
             # Add points to list
             self.xpoints.extend([event.xdata])
             self.ypoints.extend([event.ydata])
